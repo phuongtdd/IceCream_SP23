@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* Header */
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 130px;
+    height: 140px;
+    border: 2px groove;
+    border-radius: 50%;
+}
+
+.header p {
+    font-size: 40px;
+    font-family: Ephesis;
+    color: rgb(5, 167, 5);
+}
+
+.left-header {
+    width: 40%;
+}
+
+.right-header {
+    width: 40%;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* menu */
+
+.menu ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.menu {
+    padding: 15px;
+    background-color: green;
+    margin-top: 10px;
+    width: 98.7%;
+    margin: 10px auto;
+}
+
+.menu a {
+    color: white;
+    font-size: 18px;
+}
+
+/* section-1 */
+
+.banner {
+    margin-top: -10px;
+    display: flex;
+}
+
+.banner img {
+    width: 50%;
+}
+
+.banner :first-child {
+    padding-left: 10px;
+}
+
+.banner :last-child {
+    padding-right: 10px;
+}
+
+/* section-2 */
+
+.col-50 {
+    min-height: 1px;
+    float: left;
+    width: 50%;
+}
+
+.section-2 {
+    margin-top: 20px;
+}
+
+.section-2 img {
+    width: 70%;
+    padding-left: 10px;
+    height: 450px;
+}
+
+.section-2 h2 {
+    color: rgb(204, 6, 204);
+}
+
+.section-2-text {
+    margin-left: -180px;
+    width: 55%;
+}
+
+.section-2-text p {
+    text-align: justify;
+    padding-top: 15px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.section-2-text ul {
+    color: rgb(7, 192, 192);
+    font-style: italic;
+    list-style-type: circle;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+/* footer */
+.footer {
+    background-color: green;
+    padding: 30px;
+}
+
+.footer p,
+h5 {
+    text-align: center;
+    color: white;
+}
+
+/* form */
+
+.book-tour {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+    margin-left: -150px;
+}
+
+.order {
+    width: max-content;
+}
+
+.book-tour h2,
+h4 {
+    text-align: center;
+}
+
+.header-form {
+    background-color: green;
+    color: white;
+    width: 400px;
+    padding: 5px;
+}
+
+.form-element {
+    padding: 10px;
+}
+
+.form-element label {
+    width: 300px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.form-element span {
+    display: inline-block;
+    text-align: end;
+    font-size: 20px;
+    color: orange;
+    width: 60px;
+}
+
+.body-form {
+    width: max-content;
+    background-color: gainsboro;
+    width: 100%;
+}
+
+.submit-button {
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+.submit-button button {
+    border-style: none;
+    background-color: rgb(223, 102, 2);
+    padding: 8px 40px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+#order-list {
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px 0px 20px 10px;
+    line-height: 25px;
+}
+
+#price {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px 0px;
+}
